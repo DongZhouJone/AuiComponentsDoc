@@ -1,0 +1,725 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>ajax应用介绍 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="6.keep-alive实战.html" />
+    
+    
+    <link rel="prev" href="4.组件规范.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="1.简介.html">
+            
+                <a href="1.简介.html">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="2.目录路由设计.html">
+            
+                <a href="2.目录路由设计.html">
+            
+                    
+                    目录路由设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="3.Vue模板页规范.html">
+            
+                <a href="3.Vue模板页规范.html">
+            
+                    
+                    Vue模板页规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="4.组件规范.html">
+            
+                <a href="4.组件规范.html">
+            
+                    
+                    组件规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="5.ajax应用介绍.html">
+            
+                <a href="5.ajax应用介绍.html">
+            
+                    
+                    ajax应用介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="6.keep-alive实战.html">
+            
+                <a href="6.keep-alive实战.html">
+            
+                    
+                    keep-alive实战
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Aui组件库</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../组件/按钮/AuiGroupBtn.html">
+            
+                <a href="../组件/按钮/AuiGroupBtn.html">
+            
+                    
+                    按钮组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../组件/表单/AuiFormCreate.html">
+            
+                <a href="../组件/表单/AuiFormCreate.html">
+            
+                    
+                    表单自动化构建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../组件/表格/AuiTable.html">
+            
+                <a href="../组件/表格/AuiTable.html">
+            
+                    
+                    表格
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../组件/表格/AuiTableSearch.html">
+            
+                <a href="../组件/表格/AuiTableSearch.html">
+            
+                    
+                    表格搜索
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">布局</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../组件/布局/AuiBreadCrumb.html">
+            
+                <a href="../组件/布局/AuiBreadCrumb.html">
+            
+                    
+                    面包屑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../组件/布局/AuiHeader.html">
+            
+                <a href="../组件/布局/AuiHeader.html">
+            
+                    
+                    导航菜单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../组件/布局/AuiList.html">
+            
+                <a href="../组件/布局/AuiList.html">
+            
+                    
+                    todoList
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../组件/布局/AuiPhone.html">
+            
+                <a href="../组件/布局/AuiPhone.html">
+            
+                    
+                    移动端框
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../组件/布局/AuiSplitLayout.html">
+            
+                <a href="../组件/布局/AuiSplitLayout.html">
+            
+                    
+                    页面布局组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">图片</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../组件/布局/AuiImage.html">
+            
+                <a href="../组件/布局/AuiImage.html">
+            
+                    
+                    图片预览
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../组件/图片裁剪/AuiCropper.html">
+            
+                <a href="../组件/图片裁剪/AuiCropper.html">
+            
+                    
+                    图片裁剪
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >ajax应用介绍</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h4 id="&#x6982;&#x8FF0;">&#x6982;&#x8FF0;</h4>
+<pre><code> &#x57FA;&#x4E8E; axios &#x7684;&#x4E8C;&#x6B21;&#x5C01;&#x88C5;
+ &#x4F18;&#x70B9;&#xFF1A;&#x7C7B;&#x4F3C;&#x8DEF;&#x7531;&#x8BBE;&#x8BA1;, &#x7EDF;&#x4E00;&#x6807;&#x51C6;&#x96C6;&#x5408;, &#x5206;&#x5E03;&#x5F0F;&#x5F00;&#x53D1;, &#x7B26;&#x5408;&#x5F53;&#x4E0B;&#x6D41;&#x884C;&#x7684; ajax &#x7BA1;&#x7406;&#x65B9;&#x5F0F;.&#x5728; 2.0 &#x73AF;&#x5883;&#x4E0B;&#x7B80;&#x5316;&#x4F20;&#x53C2;&#x65B9;&#x5F0F;
+ &#x7F3A;&#x70B9;&#xFF1A;&#x76EE;&#x524D;&#x5BF9;&#x9519;&#x8BEF;&#x7801;&#x7684;&#x5904;&#x7406;&#x4E0D;&#x592A;&#x5B8C;&#x5584;
+</code></pre><hr>
+<h4 id="&#x4EE3;&#x7801;&#x793A;&#x4F8B;">&#x4EE3;&#x7801;&#x793A;&#x4F8B;</h4>
+<h6 id="menufilesindexjs">menuFiles/index.js</h6>
+<pre><code class="lang-javascript">&lt;script&gt;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    methods: {
+        <span class="hljs-keyword">async</span> getFn (id) {
+            <span class="hljs-keyword">let</span> resp;
+            <span class="hljs-keyword">let</span> params = {
+              Id: id  
+            };
+            <span class="hljs-comment">// need one line</span>
+            <span class="hljs-comment">// this.layout.loading </span>
+            <span class="hljs-keyword">try</span> {
+                <span class="hljs-comment">// get, post &#x4F20;&#x53C2;&#x65B9;&#x5F0F;&#x76F8;&#x540C;</span>
+                resp = <span class="hljs-keyword">await</span> app.get(<span class="hljs-string">&apos;menuFiles.GetApi1&apos;</span>, params);
+                <span class="hljs-keyword">if</span> (resp.ErrorCode === app.global.ErrorCode) {
+                    <span class="hljs-comment">// &#x5168;&#x5C40;&#x6210;&#x529F;&#x63D0;&#x793A;</span>
+                    <span class="hljs-keyword">this</span>.$Message.success(app.global.successMsg);
+                } <span class="hljs-keyword">else</span> {
+                    <span class="hljs-keyword">this</span>.$Message.error(resp.ErrorMsg);
+                }
+            } <span class="hljs-keyword">catch</span> (err) {
+                <span class="hljs-keyword">this</span>.showError(err);
+            }
+        },
+        <span class="hljs-keyword">async</span> postFn (id) {
+            <span class="hljs-keyword">let</span> resp;
+            <span class="hljs-keyword">let</span> params = {
+              OrgId: id  
+            };
+            <span class="hljs-comment">// need one line</span>
+            <span class="hljs-comment">// this.layout.loading </span>
+            <span class="hljs-keyword">try</span> {
+                <span class="hljs-comment">// get, post &#x4F20;&#x53C2;&#x65B9;&#x5F0F;&#x76F8;&#x540C;</span>
+                resp = <span class="hljs-keyword">await</span> app.post(<span class="hljs-string">&apos;menuFiles.Save&apos;</span>, params);
+                <span class="hljs-keyword">if</span> (resp.ErrorCode === app.global.ErrorCode) {
+                    <span class="hljs-comment">// &#x5168;&#x5C40;&#x6210;&#x529F;&#x63D0;&#x793A;</span>
+                    <span class="hljs-keyword">this</span>.$Message.success(app.global.successMsg);
+                } <span class="hljs-keyword">else</span> {
+                    <span class="hljs-keyword">this</span>.$Message.error(resp.ErrorMsg);
+                }
+            } <span class="hljs-keyword">catch</span> (err) {
+                <span class="hljs-keyword">this</span>.showError(err);
+            }
+        }    
+    }
+};
+<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></span>
+</code></pre>
+<h6 id="menufilesapijs">menuFiles/_api.js</h6>
+<pre><code class="lang-javascript"><span class="hljs-comment">// _api.js &#x548C; _routers.js &#x540C;&#x7EA7;</span>
+<span class="hljs-comment">// &#x8FD9;&#x91CC;&#x5176;&#x5B9E;&#x5E94;&#x8BE5;&#x662F;&#x5E38;&#x91CF;, &#x5728; _api.js &#x5185;&#x63A8;&#x8350;&#x91CD;&#x65B0;&#x5B9A;&#x4E49; host</span>
+<span class="hljs-keyword">const</span> host = app.root;
+<span class="hljs-comment">// &#x540E;&#x53F0;&#x4E2A;&#x4EBA;&#x5F00;&#x53D1;&#x76EE;&#x5F55;&#x53EF;&#x4EE5;&#x91CD;&#x65B0;&#x5B9A;&#x4E49;</span>
+<span class="hljs-keyword">const</span> dev_host = <span class="hljs-string">&apos;https://scb.campus.qq.com/dev_campus&apos;</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    <span class="hljs-comment">// ES6&#x5B57;&#x7B26;&#x4E32;&#x6A21;&#x677F;&#x62FC;&#x63A5; host &#x53D8;&#x91CF;</span>
+    <span class="hljs-string">&apos;menuFiles.GetApi1&apos;</span>: <span class="hljs-string">`<span class="hljs-subst">${host}</span>/teacher/GetApi1`</span>,
+    <span class="hljs-string">&apos;menuFiles.Save&apos;</span>: <span class="hljs-string">`<span class="hljs-subst">${dev_host}</span>/teacher/Save`</span>,
+};
+</code></pre>
+<h5 id="&#x89C4;&#x5219;&#xFF1A;">&#x89C4;&#x5219;&#xFF1A;</h5>
+<ol>
+<li>&#x63A5;&#x53E3;&#x522B;&#x540D;&#x5B9A;&#x4E49;&#x89C4;&#x5219;: menufileName + . +  apiFnName&#x3002;&#x5C3D;&#x91CF;&#x548C;&#x540E;&#x53F0;&#x63A5;&#x53E3;&#x65B9;&#x6CD5;&#x540D;&#x4FDD;&#x6301;&#x4E00;&#x81F4;</li>
+<li>&#x522B;&#x540D;&#x5BF9;&#x5E94;&#x7684;&#x63A5;&#x53E3;&#x62FC;&#x63A5;host&#x65F6;&#x5FC5;&#x987B;&#x4F7F;&#x7528; ES6 &#x6A21;&#x677F;&#x5B57;&#x7B26;&#x4E32;&#x62FC;&#x63A5;</li>
+<li>&#x4E1A;&#x52A1;&#x8BF7;&#x6C42;&#x65B9;&#x5F0F;&#x5982;&#x4E0A;&#xFF0C;resp, params&#x7B49;&#x53D8;&#x91CF;&#x9700;&#x8981;&#x5148;&#x5B9A;&#x4E49;&#x540E;&#x4F7F;&#x7528;&#xFF0C;&#x5B9A;&#x4E49;&#x7684;&#x53D8;&#x91CF;&#x548C;&#x903B;&#x8F91;&#x4E4B;&#x95F4;&#x9700;&#x8981;<strong>&#x7A7A;&#x884C;&#x5206;&#x9694;</strong>&#xFF0C;2.0 &#x7684;&#x63A5;&#x53E3;&#x8FD4;&#x56DE;&#x6570;&#x636E;&#x72B6;&#x6001;&#x7EDF;&#x4E00;&#x4E3A;app.global.ErrorCode, &#x5373;&#x2018;OK&#x2018;&#x3002;&#x8FD9;&#x65F6;&#x5019;&#x6709;&#x6570;&#x636E;&#x7F3A;&#x4E0D;&#x7B49;&#x8BF7;&#x8BA9;&#x540E;&#x53F0;&#x540C;&#x5B66;&#x6539;</li>
+<li>2.0 &#x521A;&#x5F00;&#x59CB;&#x5F00;&#x53D1;&#x7684;&#x65F6;&#x56E0;&#x7F51;&#x5173;&#x628A;&#x7F51;&#x7EDC;&#x72B6;&#x6001;&#x7801;&#x5F53;&#x63A5;&#x53E3;&#x6570;&#x636E;&#x72B6;&#x6001;&#x8FD4;&#x56DE;&#xFF0C;&#x5BFC;&#x81F4;&#x65E0;&#x6CD5;&#x6B63;&#x5E38;&#x6355;&#x83B7; tryCatch, &#x540E;&#x6765;&#x5728;response&#x62E6;&#x622A;&#x4E2D;&#x91CD;&#x65B0;&#x5B9E;&#x4F8B;&#x5316;&#x4E86;&#x5F02;&#x5E38;&#x5BF9;&#x8C61;&#xFF0C;&#x53EF;&#x4EE5;&#x6B63;&#x5E38;&#x6355;&#x83B7;&#x5F02;&#x5E38;&#x3002;<strong>&#x4E4B;&#x540E;&#x63A5;&#x53E3;&#x8BF7;&#x6C42;&#x5C3D;&#x91CF;&#x52A0;&#x4E0A; tryCatch</strong></li>
+</ol>
+<hr>
+<h4 id="axios-&#x5C01;&#x88C5;&#x4ECB;&#x7ECD;">Axios &#x5C01;&#x88C5;&#x4ECB;&#x7ECD;</h4>
+<h6 id="basesrcapiaxiosjs">base/src/api/axios.js</h6>
+<pre><code class="lang-javascript"><span class="hljs-comment">/**
+* @author zxd
+* @module ajax &#x5C01;&#x88C5;
+*/</span>
+<span class="hljs-comment">/* eslint-disable */</span>
+<span class="hljs-keyword">import</span> Vue <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;vue&apos;</span>;
+<span class="hljs-keyword">import</span> axios <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;axios&apos;</span>;  <span class="hljs-comment">// 0.2M</span>
+
+axios.defaults.baseURL = app.root;
+axios.defaults.headers = {
+   <span class="hljs-string">&apos;Content-Type&apos;</span>: <span class="hljs-string">&apos;application/x-www-form-urlencoded&apos;</span>
+};
+
+axios.defaults.transformRequest = [<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+   <span class="hljs-comment">// &#x68C0;&#x6D4B; request &#x662F;&#x5426;&#x4E3A; FormData &#xFF0C;&#x5219;&#x4E0D;&#x505A;&#x4EFB;&#x4F55;&#x5E8F;&#x5217;&#x5316;&#x64CD;&#x4F5C;</span>
+   <span class="hljs-keyword">if</span> (data &amp;&amp; data.entries) <span class="hljs-keyword">return</span> data;
+   <span class="hljs-comment">// 2.0 &#x6B63;&#x5E38;&#x63A5;&#x53E3;&#x9700;&#x8981;&#x5E8F;&#x5217;&#x5316;</span>
+   <span class="hljs-keyword">return</span> <span class="hljs-built_in">JSON</span>.stringify(data);
+}];
+
+<span class="hljs-comment">// request &#x62E6;&#x622A; 1.&#x643A;&#x5E26;&#x767B;&#x5F55;&#x6001;token 2.post&#x8BF7;&#x6C42;&#x5904;&#x7406; Content-Type = &apos;application/json&apos; </span>
+axios.interceptors.request.use(
+   response =&gt; {
+       <span class="hljs-keyword">let</span> token = <span class="hljs-built_in">window</span>.localStorage.getItem(<span class="hljs-string">&apos;views.login.token&apos;</span>);
+       <span class="hljs-keyword">let</span> method = response.method;
+       <span class="hljs-keyword">if</span> (token) {
+           response.headers.Authorization = token;
+       }
+       <span class="hljs-keyword">if</span> (method == <span class="hljs-string">&apos;post&apos;</span>) {
+           response.headers[<span class="hljs-string">&apos;Content-Type&apos;</span>] = <span class="hljs-string">&apos;application/json&apos;</span>;
+       }
+       <span class="hljs-keyword">return</span> response;
+   },
+   error =&gt; {
+       <span class="hljs-keyword">return</span> error;
+   }
+);
+
+<span class="hljs-comment">// &#x91CD;&#x5B9A;&#x5411;&#x65B9;&#x6CD5;</span>
+<span class="hljs-keyword">const</span> redirect = () =&gt; {
+    <span class="hljs-keyword">let</span> url = <span class="hljs-string">&apos;https://te.qq.com/logout/10000&apos;</span>;
+    <span class="hljs-built_in">window</span>.sessionStorage.clear();
+    <span class="hljs-built_in">window</span>.localStorage.clear();
+    <span class="hljs-comment">// &#x6E05;&#x9664;&#x7EBF;&#x4E0A;&#x767B;&#x9646;&#x6001;</span>
+    <span class="hljs-keyword">if</span> (!<span class="hljs-regexp">/v\.campus\.qq\.com/</span>.test(<span class="hljs-built_in">window</span>.location.host)) {
+        url = <span class="hljs-string">&apos;http://sso.te.qq.com/logout/10000&apos;</span>;
+    } 
+    <span class="hljs-built_in">window</span>.location.href = url;
+}
+<span class="hljs-comment">// response &#x62E6;&#x622A;: 1.&#x5B9E;&#x4F8B;&#x5316;&#x9519;&#x8BEF;&#x7801;&#x5BF9;&#x8C61;&#xFF0C;&#x4FDD;&#x8BC1;&#x4E1A;&#x52A1;&#x573A;&#x666F;&#x6B63;&#x5E38;tryCatch&#x6355;&#x83B7; 2.&#x6839;&#x636E;&#x4E0D;&#x540C;&#x7684;&#x9519;&#x8BEF;&#x7801;&#x8FDB;&#x884C;&#x524D;&#x7AEF;&#x5904;&#x7406;</span>
+axios.interceptors.response.use(
+   response =&gt; {
+       <span class="hljs-keyword">return</span> response;
+   },
+   error =&gt; {
+       <span class="hljs-keyword">let</span> response = {};
+       <span class="hljs-comment">// response &#x6574;&#x4E2A;&#x5BF9;&#x8C61;</span>
+       <span class="hljs-keyword">if</span> (error.response) {
+           response = error.response;
+           <span class="hljs-comment">// 401&#xFF1A;&#x767B;&#x5F55;&#x6001;&#x8FC7;&#x671F;</span>
+           <span class="hljs-keyword">let</span> status = response.status;
+           <span class="hljs-keyword">if</span> (status == <span class="hljs-number">401</span>) {
+               <span class="hljs-comment">// TODO &#x9700;&#x8981;&#x6267;&#x884C;&#x91CD;&#x5B9A;&#x5411;&#x5230;&#x9996;&#x9875;&#x64CD;&#x4F5C;&#xFF0C;&#x6682;&#x65F6;&#x4E0D;&#x64CD;&#x4F5C;</span>
+               Vue.prototype.$Message.error(<span class="hljs-string">&apos;&#x767B;&#x5F55;&#x6001;&#x5DF2;&#x8FC7;&#x671F;&#xFF0C;&#x8BF7;&#x91CD;&#x65B0;&#x767B;&#x5F55;&apos;</span>);
+               <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;&#x767B;&#x5F55;&#x6001;&#x8FC7;&#x671F;&#xFF0C;&#x8BF7;&#x91CD;&#x65B0;&#x767B;&#x5F55;&apos;</span>);
+               redirect();
+           }
+           <span class="hljs-keyword">if</span> (status &gt;= <span class="hljs-number">500</span>) {
+               Vue.prototype.$Message.error(<span class="hljs-string">&apos;&#x7F51;&#x7EDC;&#x5F00;&#x5C0F;&#x5DEE;&#x4E86;&apos;</span>);
+               <span class="hljs-keyword">if</span> (status == <span class="hljs-number">504</span>) {
+                   <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;&#x63A5;&#x53E3;&#x670D;&#x52A1;&#x5B95;&#x673A;&apos;</span>);
+                   redirect();
+               }
+           }
+       } <span class="hljs-keyword">else</span> {
+           <span class="hljs-comment">// &#x524D;&#x7AEF;&#x6A21;&#x62DF;404&#x9519;&#x8BEF;&#xFF1A;404 &#x63A5;&#x53E3;&#x4E0D;&#x4F1A;&#x6355;&#x83B7;&#x5230;&#x9519;&#x8BEF;&#x4FE1;&#x606F;&#x7684;&#x95EE;&#x9898;</span>
+           <span class="hljs-keyword">if</span> (error.config) {
+               response.status = <span class="hljs-number">404</span>;
+               response.statusText = <span class="hljs-string">&quot;API Not Found&quot;</span>
+           }
+       }
+       <span class="hljs-comment">// &#x63A5;&#x53E3;&#x9519;&#x8BEF;&#x524D;&#x7AEF;&#x6A21;&#x62DF;&#x9519;&#x8BEF;&#x4F9B;&#x6BCF;&#x4E2A;&#x9875;&#x9762;&#x63A5;&#x53E3;&#x6355;&#x83B7;</span>
+       <span class="hljs-keyword">throw</span> response;
+       <span class="hljs-keyword">return</span> error;
+   }
+);
+<span class="hljs-comment">// feat: zxd@&#x5411;&#x524D;&#x517C;&#x5BB9;1.0&#x7684;&#x90E8;&#x5206;&#x63A5;: &#x6BD4;&#x5982;getArea, this.$axios.get|post 2019/6/29</span>
+Vue.prototype.$axios = axios;
+<span class="hljs-comment">// =================== &#x4E8C;&#x6B21;&#x5C01;&#x88C5; axios ==================</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">request</span> (<span class="hljs-params">url, params, method</span>) </span>{
+   <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>((resolve, reject) =&gt; {
+       axios[method](url, params)
+           .then((res) =&gt; {
+               <span class="hljs-keyword">let</span> code = res.data.ErrorCode;
+               <span class="hljs-keyword">if</span> (code &amp;&amp; <span class="hljs-keyword">typeof</span>(code) == <span class="hljs-string">&apos;string&apos;</span>) {
+                   res.data.ErrorCode = code.toLocaleUpperCase();
+               }
+               resolve(res.data)
+           })
+           .catch((resp) =&gt; {
+               reject(resp)
+           });
+   })
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">ajaxGet</span> (<span class="hljs-params">url, params</span>) </span>{
+   <span class="hljs-keyword">return</span> request(url, params, <span class="hljs-string">&apos;get&apos;</span>)
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">ajaxPost</span> (<span class="hljs-params">url, params</span>) </span>{
+   <span class="hljs-keyword">return</span> request(url, params, <span class="hljs-string">&apos;post&apos;</span>)
+}
+</code></pre>
+<h6 id="projectsrcapirequestjs">project/src/api/request.js</h6>
+<pre><code class="lang-javascript"><span class="hljs-comment">// &#x7C7B;&#x4F3C; src/routers.js, &#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x6240;&#x6709;ajax&#x96C6;&#x5408;&#x6587;&#x4EF6;</span>
+
+<span class="hljs-comment">/* eslint-disable */</span>
+<span class="hljs-keyword">import</span> env <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./env&apos;</span>
+<span class="hljs-keyword">import</span> global <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./globalData&apos;</span>
+<span class="hljs-comment">// &#x4ECE; base &#x5F15;&#x5165; &#x4E8C;&#x6B21;&#x5C01;&#x88C5;&#x7684; axios</span>
+<span class="hljs-keyword">import</span> {ajaxGet, ajaxPost} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;base/api/axios&apos;</span>
+<span class="hljs-comment">// ==================== &#x57DF;&#x540D;&#x5207;&#x6362; ===================</span>
+<span class="hljs-comment">// &#x6B22;&#x8FCE;&#x9875;&#x8BBE;&#x7F6E;</span>
+<span class="hljs-keyword">import</span> Welcome <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;src/views/welcome/_api&apos;</span>;
+<span class="hljs-comment">// &#x73ED;&#x7EA7;&#x7BA1;&#x7406;</span>
+<span class="hljs-keyword">import</span> Classes <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;src/views/school/classes/_api&apos;</span>;
+<span class="hljs-comment">// &#x6559;&#x5E08;&#x7BA1;&#x7406;</span>
+<span class="hljs-keyword">import</span> Teacher <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;src/views/school/teacher/_api&apos;</span>;
+
+<span class="hljs-comment">// ==================== &#x63A5;&#x53E3;&#x5217;&#x8868; ===================</span>
+<span class="hljs-keyword">const</span> RequestUrl = {
+    <span class="hljs-string">&apos;login.getLoginInfo&apos;</span>: <span class="hljs-string">`<span class="hljs-subst">${app.root}</span>/auth/GetUserMenu`</span>,
+    <span class="hljs-comment">// &#x83B7;&#x53D6;&#x5F53;&#x524D;&#x5B66;&#x6821;&#x56FA;&#x5B9A;&#x6240;&#x6709;select&#x9009;&#x9879;</span>
+    <span class="hljs-string">&apos;login.getAllSelect&apos;</span>: <span class="hljs-string">`<span class="hljs-subst">${app.root}</span>/common/Selector`</span>,
+    <span class="hljs-comment">// &#x5224;&#x65AD;&#x7528;&#x6237;&#x662F;&#x5426;&#x4E3A;&#x591A;&#x89D2;&#x8272;</span>
+    <span class="hljs-string">&apos;common.IsMoreRole&apos;</span>: <span class="hljs-string">`<span class="hljs-subst">${app.root}</span>/user/IsMoreRole`</span>,
+    <span class="hljs-comment">// &#x5BFC;&#x51FA;&#x8868;&#x683C;&#x516C;&#x6709;&#x63A5;&#x53E3;</span>
+    <span class="hljs-string">&apos;common.ExportExcel&apos;</span>: <span class="hljs-string">`<span class="hljs-subst">${app.root}</span>/export/ExportExcel`</span>,
+    <span class="hljs-comment">// &#x516C;&#x5171;&#x6309;&#x94AE;&#x7EC4;</span>
+    <span class="hljs-string">&apos;common.getButton&apos;</span>: <span class="hljs-string">`<span class="hljs-subst">${app.root}</span>/auth/GetButton`</span>,
+    ...Welcome,
+    ...Teacher,
+    ...Classes
+}
+<span class="hljs-comment">// &#x5B9A;&#x4E49;&#x9700;&#x8981;&#x5168;&#x5C40;&#x7ED1;&#x5B9A;&#x7684; &#x51FD;&#x6570;</span>
+<span class="hljs-keyword">const</span> request = {
+    global,
+    <span class="hljs-comment">// ajax&#x51FD;&#x6570;&#x65B9;&#x6CD5;</span>
+    get (name, params) {
+        <span class="hljs-comment">// feat: zxd@&#x517C;&#x5BB9;&#x76F4;&#x63A5;&#x4F20;&#x8BF7;&#x6C42;&#x5730;&#x5740; 20190514</span>
+        <span class="hljs-comment">// featL zxd@GET&#x4F20;&#x53C2;&#x53BB;&#x9664;&#x5916;&#x5C42;&#x5BF9;&#x8C61;&#x5305;&#x88F9;</span>
+        <span class="hljs-keyword">var</span> url = RequestUrl[name] || name;
+        <span class="hljs-keyword">if</span> (!<span class="hljs-regexp">/^((ht|f)tps?):/</span>.test(url)) {
+            <span class="hljs-built_in">console</span>.error(<span class="hljs-string">&apos;&#x8BF7;&#x586B;&#x5199;&#x6B63;&#x786E;&#x7684;&#x63A5;&#x53E3;&#x5730;&#x5740;&apos;</span>);
+            <span class="hljs-keyword">return</span>;
+        }
+        <span class="hljs-keyword">return</span> ajaxGet(url, {params: params});
+    },
+    post (name, params) {
+        <span class="hljs-comment">// feat: zxd@&#x517C;&#x5BB9;&#x76F4;&#x63A5;&#x4F20;&#x8BF7;&#x6C42;&#x5730;&#x5740; 20190514</span>
+        <span class="hljs-keyword">var</span> url = RequestUrl[name] || name;
+        <span class="hljs-keyword">if</span> (!<span class="hljs-regexp">/^((ht|f)tps?):/</span>.test(url)) {
+            <span class="hljs-built_in">console</span>.error(<span class="hljs-string">&apos;&#x8BF7;&#x586B;&#x5199;&#x6B63;&#x786E;&#x7684;&#x63A5;&#x53E3;&#x5730;&#x5740;&apos;</span>);
+            <span class="hljs-keyword">return</span>;
+        }
+        <span class="hljs-keyword">return</span> ajaxPost(url, params);
+    }
+}
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> request;
+</code></pre>
+<h6 id="srcmainjs">src/main.js</h6>
+<pre><code class="lang-javascript"><span class="hljs-comment">// &#x5168;&#x5C40;&#x5F15;&#x5165;</span>
+<span class="hljs-comment">// &#x5F15;&#x5165;axios &amp; api</span>
+<span class="hljs-keyword">import</span> request <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./api/request&apos;</span>;
+<span class="hljs-built_in">Object</span>.assign(<span class="hljs-built_in">window</span>.app, request);
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="4.组件规范.html" class="navigation navigation-prev " aria-label="Previous page: 组件规范">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="6.keep-alive实战.html" class="navigation navigation-next " aria-label="Next page: keep-alive实战">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"ajax应用介绍","level":"1.6","depth":1,"next":{"title":"keep-alive实战","level":"1.7","depth":1,"path":"介绍/6.keep-alive实战.md","ref":"介绍/6.keep-alive实战.md","articles":[]},"previous":{"title":"组件规范","level":"1.5","depth":1,"path":"介绍/4.组件规范.md","ref":"介绍/4.组件规范.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"介绍/5.ajax应用介绍.md","mtime":"2019-10-07T04:05:06.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-10-15T18:05:00.057Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

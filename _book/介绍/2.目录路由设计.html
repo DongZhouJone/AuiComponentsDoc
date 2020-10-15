@@ -1,0 +1,834 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>目录路由设计 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="3.Vue模板页规范.html" />
+    
+    
+    <link rel="prev" href="1.简介.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="1.简介.html">
+            
+                <a href="1.简介.html">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="2.目录路由设计.html">
+            
+                <a href="2.目录路由设计.html">
+            
+                    
+                    目录路由设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="3.Vue模板页规范.html">
+            
+                <a href="3.Vue模板页规范.html">
+            
+                    
+                    Vue模板页规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="4.组件规范.html">
+            
+                <a href="4.组件规范.html">
+            
+                    
+                    组件规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="5.ajax应用介绍.html">
+            
+                <a href="5.ajax应用介绍.html">
+            
+                    
+                    ajax应用介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="6.keep-alive实战.html">
+            
+                <a href="6.keep-alive实战.html">
+            
+                    
+                    keep-alive实战
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Aui组件库</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../组件/按钮/AuiGroupBtn.html">
+            
+                <a href="../组件/按钮/AuiGroupBtn.html">
+            
+                    
+                    按钮组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../组件/表单/AuiFormCreate.html">
+            
+                <a href="../组件/表单/AuiFormCreate.html">
+            
+                    
+                    表单自动化构建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../组件/表格/AuiTable.html">
+            
+                <a href="../组件/表格/AuiTable.html">
+            
+                    
+                    表格
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../组件/表格/AuiTableSearch.html">
+            
+                <a href="../组件/表格/AuiTableSearch.html">
+            
+                    
+                    表格搜索
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">布局</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../组件/布局/AuiBreadCrumb.html">
+            
+                <a href="../组件/布局/AuiBreadCrumb.html">
+            
+                    
+                    面包屑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../组件/布局/AuiHeader.html">
+            
+                <a href="../组件/布局/AuiHeader.html">
+            
+                    
+                    导航菜单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../组件/布局/AuiList.html">
+            
+                <a href="../组件/布局/AuiList.html">
+            
+                    
+                    todoList
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../组件/布局/AuiPhone.html">
+            
+                <a href="../组件/布局/AuiPhone.html">
+            
+                    
+                    移动端框
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../组件/布局/AuiSplitLayout.html">
+            
+                <a href="../组件/布局/AuiSplitLayout.html">
+            
+                    
+                    页面布局组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">图片</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../组件/布局/AuiImage.html">
+            
+                <a href="../组件/布局/AuiImage.html">
+            
+                    
+                    图片预览
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../组件/图片裁剪/AuiCropper.html">
+            
+                <a href="../组件/图片裁剪/AuiCropper.html">
+            
+                    
+                    图片裁剪
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >目录路由设计</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h4 id="&#x9879;&#x76EE;&#x76EE;&#x5F55;">&#x9879;&#x76EE;&#x76EE;&#x5F55;</h4>
+<pre><code class="lang-javascript">project
+&#x251C;&#x2500;&#x2500; base_module        <span class="hljs-comment">// git&#x5B50;&#x6A21;&#x5757;           </span>
+&#x251C;&#x2500;&#x2500; build              <span class="hljs-comment">// &#x6784;&#x5EFA;&#x670D;&#x52A1;&#x548C;webpack&#x914D;&#x7F6E;</span>
+&#x251C;&#x2500;&#x2500; config             <span class="hljs-comment">// &#x9879;&#x76EE;&#x4E0D;&#x540C;&#x73AF;&#x5883;&#x7684;&#x914D;&#x7F6E;</span>
+&#x251C;&#x2500;&#x2500; dist               <span class="hljs-comment">// &#x9879;&#x76EE;build&#x76EE;&#x5F55;</span>
+&#x251C;&#x2500;&#x2500; src                <span class="hljs-comment">// &#x751F;&#x4EA7;&#x76EE;&#x5F55;</span>
+&#x2502;   &#x251C;&#x2500;&#x2500; api            <span class="hljs-comment">// api &#x5165;&#x53E3;</span>
+&#x2502;   &#x251C;&#x2500;&#x2500; assets         <span class="hljs-comment">// css js &#x548C;&#x56FE;&#x7247;&#x8D44;&#x6E90;</span>
+&#x2502;   &#x251C;&#x2500;&#x2500; components     <span class="hljs-comment">// &#x5404;&#x79CD;&#x7EC4;&#x4EF6;</span>
+&#x2502;   &#x251C;&#x2500;&#x2500; views          <span class="hljs-comment">// &#x5404;&#x79CD;&#x9875;&#x9762;</span>
+&#x2502;   &#x251C;&#x2500;&#x2500; vuex           <span class="hljs-comment">// vuex&#x72B6;&#x6001;&#x7BA1;&#x7406;&#x5668;</span>
+&#x2502;   &#x251C;&#x2500;&#x2500; filters.js     <span class="hljs-comment">// &#x5404;&#x79CD;&#x8FC7;&#x6EE4;&#x5668;</span>
+&#x2502;   &#x2514;&#x2500;&#x2500; main.js        <span class="hljs-comment">// Webpack &#x9884;&#x7F16;&#x8BD1;&#x5165;&#x53E3;</span>
+&#x251C;&#x2500;&#x2500; index.html         <span class="hljs-comment">// &#x9879;&#x76EE;&#x5165;&#x53E3;&#x6587;&#x4EF6;</span>
+&#x251C;&#x2500;&#x2500; README.md           
+&#x2514;&#x2500;&#x2500; package.json       <span class="hljs-comment">// &#x9879;&#x76EE;&#x914D;&#x7F6E;&#x6587;&#x4EF6;</span>
+</code></pre>
+<h6 id="views&#x76EE;&#x5F55;">views&#x76EE;&#x5F55;</h6>
+<pre><code class="lang-javascript">views
+&#x251C;&#x2500;&#x2500; school             <span class="hljs-comment">// menuFiles</span>
+&#x2502;   &#x251C;&#x2500;&#x2500; teacher        <span class="hljs-comment">// PageFiles</span>
+&#x2502;   &#x2502;   &#x251C;&#x2500;&#x2500; index.js   <span class="hljs-comment">// &#x8FD9;&#x4E2A;&#x6A21;&#x5757;&#x7684;&#x8DEF;&#x7531;</span>
+&#x2502;   &#x2502;   &#x2514;&#x2500;&#x2500; page.vue   <span class="hljs-comment">// page</span>
+&#x2502;   &#x251C;&#x2500;&#x2500; authority
+&#x2502;   &#x251C;&#x2500;&#x2500; face
+&#x2502;   &#x2514;&#x2500;&#x2500; router.js      <span class="hljs-comment">// &#x5F15;&#x5165;&#x6BCF;&#x4E2A;&#x6A21;&#x5757;&#x8DEF;&#x7531; &#x5E76;&#x5BFC;&#x51FA;</span>
+&#x251C;&#x2500;&#x2500; welcome
+&#x2502;   &#x251C;&#x2500;&#x2500; components   
+&#x2502;   &#x2502;   &#x251C;&#x2500;&#x2500; _base_components.vue   <span class="hljs-comment">// &#x8FD9;&#x4E2A;&#x6A21;&#x5757;&#x7684;&#x8DEF;&#x7531;</span>
+&#x2502;   &#x2502;   &#x2514;&#x2500;&#x2500; pyq.vue                <span class="hljs-comment">// &#x8FD9;&#x4E2A;&#x6A21;&#x5757;&#x7684;&#x4E1A;&#x52A1;&#x9875;&#x9762;</span>
+&#x2502;   &#x251C;&#x2500;&#x2500; img
+&#x2502;   &#x2514;&#x2500;&#x2500; index.vue         <span class="hljs-comment">// &#x5F15;&#x5165;&#x6BCF;&#x4E2A;&#x6A21;&#x5757;</span>
+router.js                 <span class="hljs-comment">// &#x5F15;&#x5165; school &amp;&amp; welcome &#x5BFC;&#x51FA;&#x7684;&#x8DEF;&#x7531;</span>
+</code></pre>
+<h6 id="&#x89C4;&#x5219;">&#x89C4;&#x5219;</h6>
+<ol>
+<li>views  &gt;  [menuFiles|PageFiles]: src/views&#x4E0B;&#x53EA;&#x80FD;&#x521B;&#x5EFA;&#x83DC;&#x5355;&#x7EA7;&#x6587;&#x4EF6;&#x5939;&#x6216;PageFiles</li>
+<li>menuFiles  &gt;  routers.js + pageFiles: &#x83DC;&#x5355;&#x6587;&#x4EF6;&#x4E0B;&#x53EA;&#x80FD;&#x521B;&#x5EFA;&#x4E24;&#x7C7B;&#x578B;&#x6587;&#x4EF6; &#x8DEF;&#x7531;&#x6587;&#x4EF6; + &#x9875;&#x9762;&#x6587;&#x4EF6;&#x5939;</li>
+<li>pageFiles  &gt;  components + img + router.js + page.vue : &#x9875;&#x9762;&#x7EA7;&#x6587;&#x4EF6;&#x5939;&#x4E0B;&#x53EF;&#x4EE5;&#x89C6;&#x4E3A;&#x5C0F;&#x578B;&#x9879;&#x76EE;&#xFF0C;&#x91C7;&#x53D6;&#x3010;&#x8D44;&#x6E90;&#x5C31;&#x8FD1;&#x3011;&#x7684;&#x539F;&#x5219;</li>
+</ol>
+<h4 id="&#x8DEF;&#x7531;">&#x8DEF;&#x7531;</h4>
+<h6 id="&#x95EE;&#x9898;&#x573A;&#x666F;&#xFF1A;">&#x95EE;&#x9898;&#x573A;&#x666F;&#xFF1A;</h6>
+<pre><code> 1.  manage 1.0 &#x9879;&#x76EE;, &#x8DEF;&#x7531;&#x6570;&#x91CF;&#x591A;, &#x5374;&#x96C6;&#x6210;&#x5728;&#x4E00;&#x4E2A;&#x9875;&#x9762;, &#x589E;&#x5220;&#x6539;&#x5F88;&#x8D39;&#x4E8B;&#xFF0C;&#x5728;&#x5F00;&#x53D1;&#x540C;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#x65F6;&#x540C;&#x65F6;&#x65B0;&#x589E;&#x8DEF;&#x7531;&#x53EF;&#x80FD;&#x4F1A;&#x9020;&#x6210;&#x4EE3;&#x7801;&#x51B2;&#x7A81;
+ 2. &#x5927;&#x6570;&#x91CF;&#x7684;&#x8DEF;&#x7531;&#x5728;&#x505A;&#x9879;&#x76EE;&#x5206;&#x5272;&#x65F6;&#x65E0;&#x6CD5;&#x786E;&#x5B9A;&#x8DEF;&#x7531;&#x5BF9;&#x5E94;&#x6587;&#x4EF6;&#x662F;&#x5426;&#x5728;&#x7528;, &#x5BFC;&#x81F4; 1.0 &#x8DEF;&#x7531;&#x662F;&#x5206;&#x5272;&#x4E86;, &#x4E1A;&#x52A1;&#x6587;&#x4EF6;&#x4E0D;&#x6562;&#x5220;&#x51CF;
+ 3. &#x8DEF;&#x7531;&#x6587;&#x4EF6;&#x548C;&#x4E1A;&#x52A1;&#x6587;&#x4EF6;&#x4E0D;&#x5728;&#x540C;&#x4E00;&#x5C42;&#x7EA7;, &#x4E0D;&#x80FD;&#x76F4;&#x89C2;&#x7684;&#x786E;&#x8BA4;&#x8DEF;&#x7531;&#x5BF9;&#x5E94;&#x591A;&#x5C11;&#x9875;&#x9762;
+</code></pre><h6 id="&#x89E3;&#x51B3;&#x529E;&#x6CD5;&#xFF1A;">&#x89E3;&#x51B3;&#x529E;&#x6CD5;&#xFF1A;</h6>
+<ol>
+<li>&#x8DEF;&#x7531;&#x6700;&#x7EC8;&#x8FD8;&#x662F; src/routers.js &#x5185;&#xFF0C; &#x90A3;&#x552F;&#x4E00;&#x80FD;&#x505A;&#x7684;&#x5C31;&#x662F;&#x5206;&#x5E03;&#x5F0F;&#x5904;&#x7406;&#x3002;&#x5F15;&#x5165; <a href="http://es6.ruanyifeng.com/#docs/destructuring" target="_blank"><strong>ES6 &#x89E3;&#x6784;&#x8D4B;&#x503C;</strong></a> &#x5B8C;&#x7F8E;&#x5B9E;&#x73B0;</li>
+<li>&#x4EE5; menuFiles &#x7684;&#x7EF4;&#x5EA6;&#x53BB; <strong>&#x89E3;&#x6784;&#x8D4B;&#x503C;</strong>&#xFF0C;&#x65E2;&#x53EF;&#x4EE5;&#x5728;&#x5F53;&#x524D; file &#x5185;&#x786E;&#x8BA4;&#x8DEF;&#x7531;&#x5BF9;&#x5E94;&#x6587;&#x4EF6;&#xFF0C;&#x4E5F;&#x5229;&#x4E8E;&#x65B0;&#x7684;&#x83DC;&#x5355;&#x521B;&#x5EFA;&#x548C;&#x5206;&#x5272;</li>
+<li>menuFiles &#x4E2D;&#x7684; <strong>&#x8DEF;&#x7531;</strong> &#x6587;&#x4EF6;&#x5C5E;&#x4E8E;&#x79C1;&#x6709;&#x6587;&#x4EF6;&#xFF0C;&#x7EDF;&#x4E00;&#x547D;&#x540D;&#x4E3A; _routers.js, &#x4E5F;&#x53EF;&#x4EE5;&#x4FDD;&#x8BC1;&#x83DC;&#x5355;&#x6587;&#x4EF6;&#x5185;&#x7684;&#x8DEF;&#x7531;&#x6587;&#x4EF6;&#x4FDD;&#x6301;&#x5728;&#x6700;&#x663E;&#x773C;&#x7684;&#x4F4D;&#x7F6E;</li>
+</ol>
+<h6 id="&#x5177;&#x4F53;&#x6848;&#x4F8B;&#xFF1A;">&#x5177;&#x4F53;&#x6848;&#x4F8B;&#xFF1A;</h6>
+<p>src/routers.js</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">/**
+ * @author zxd
+ * @module campus 2.0 manage &#x8DEF;&#x7531;
+ */</span>
+<span class="hljs-comment">// Home, Welcome, Iframe, Exception &#x4E3A;&#x516C;&#x5171;&#x8DEF;&#x7531;</span>
+<span class="hljs-keyword">import</span> Home <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;@/views/home.vue&apos;</span>;
+<span class="hljs-keyword">import</span> Welcome <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;@/views/index.vue&apos;</span>;
+<span class="hljs-keyword">import</span> Iframe <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;base/views/iframe.vue&apos;</span>;
+<span class="hljs-keyword">import</span> Exception <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;base/views/error.vue&apos;</span>; <span class="hljs-comment">// &#x8DEF;&#x7531;&#x8DF3;&#x8F6C;&#x51FA;&#x73B0;&#x5F02;&#x5E38;&#x9875;&#x9762;&#x4F1A;&#x81EA;&#x52A8;&#x8DF3;&#x8F6C;&#x8BE5;&#x9875;; &#x65B0;&#x7A97;&#x53E3;&#x6253;&#x5F00;&#x7684;&#x83DC;&#x5355;&#x9ED8;&#x8BA4;&#x9875;</span>
+<span class="hljs-comment">// &#x5B66;&#x6821;&#x57FA;&#x7840;&#x5E73;&#x53F0;</span>
+<span class="hljs-keyword">import</span> School <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;@/views/school/routers&apos;</span>; <span class="hljs-comment">// &#x4E1A;&#x52A1;&#x8DEF;&#x7531;&#x96C6;&#x5408;</span>
+<span class="hljs-comment">// &#x540E;&#x53F0;&#x9996;&#x9875;&#x8BBE;&#x7F6E;</span>
+<span class="hljs-keyword">import</span> WelcomeSet <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;@/views/welcome/index.vue&apos;</span>;
+
+<span class="hljs-keyword">const</span> routers = [{
+    path: <span class="hljs-string">&apos;/&apos;</span>,
+    component: Home,
+    children: [
+        <span class="hljs-comment">// &#x9996;&#x6B21;&#x89E3;&#x6784;&#x8D4B;&#x503C;</span>
+        ...School,
+        <span class="hljs-comment">// &#x9996;&#x9875;</span>
+        {
+            path: <span class="hljs-string">&apos;/index&apos;</span>,
+            name: <span class="hljs-string">&apos;home&apos;</span>,
+            meta: {
+            },
+            component: Welcome
+        },
+        <span class="hljs-comment">// &#x9996;&#x9875;&#x8BBE;&#x7F6E;</span>
+        {
+            path: <span class="hljs-string">&apos;/welcomeset&apos;</span>,
+            name: <span class="hljs-string">&apos;welcomeset&apos;</span>,
+            meta: {
+            },
+            component: WelcomeSet
+        },
+        <span class="hljs-comment">// iframe &#x7EDF;&#x4E00;&#x6A21;&#x7248;&#x9875;</span>
+        {
+            path: <span class="hljs-string">&apos;apps&apos;</span>,
+            name: <span class="hljs-string">&apos;iframe&apos;</span>,
+            meta: {
+                url: <span class="hljs-string">&apos;&apos;</span>
+            },
+            component: Iframe
+        },
+        <span class="hljs-comment">// error &#x7EDF;&#x4E00;&#x6A21;&#x7248;&#x9875; </span>
+        {
+            <span class="hljs-comment">// errorCode: &#x7F51;&#x7EDC;&#x9519;&#x8BEF;&#x7801;</span>
+            path: <span class="hljs-string">&apos;exception/:errorCode?&apos;</span>,
+            name: <span class="hljs-string">&apos;exception&apos;</span>,
+            meta: {
+                url: <span class="hljs-string">&apos;&apos;</span>
+            },
+            component: Exception
+        }
+    ]
+},
+{
+    path: <span class="hljs-string">&apos;*&apos;</span>,
+    name: <span class="hljs-string">&apos;defhome&apos;</span>,
+    component: Home
+}];
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> routers;
+</code></pre>
+<p>views/school/routers.js</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">/**
+ * @author zxd
+ * @module &#x5B66;&#x6821;&#x7BA1;&#x7406;&#x540E;&#x53F0; &#x8DEF;&#x7531;
+ * @date 2019/05/21
+ */</span>
+<span class="hljs-comment">// &#x6559;&#x804C;&#x5DE5;&#x7BA1;&#x7406;</span>
+<span class="hljs-keyword">import</span> Teacher <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./teacher/_routers&apos;</span>;
+<span class="hljs-comment">// &#x4E34;&#x65F6;&#x4EBA;&#x5458;&#x7BA1;&#x7406;</span>
+<span class="hljs-keyword">import</span> Temporary <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./temporary/_routers&apos;</span>;
+<span class="hljs-comment">// &#x865A;&#x62DF;&#x7EC4;&#x7BA1;&#x7406;</span>
+<span class="hljs-keyword">import</span> Virtual <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./virtual/_routers&apos;</span>;
+<span class="hljs-comment">// &#x73ED;&#x7BA1;&#x7406;</span>
+<span class="hljs-keyword">import</span> Classes <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./classes/_routers&apos;</span>;
+<span class="hljs-comment">// &#x8BFE;&#x7A0B;&#x73ED;&#x7BA1;&#x7406;</span>
+<span class="hljs-keyword">import</span> CourseClass <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./course_class/_routers&apos;</span>;
+<span class="hljs-comment">// &#x6559;&#x5B66;&#x73ED;&#x7BA1;&#x7406;&#xFF08;&#x5373;&#xFF1A;&#x9AD8;&#x6821;&#x8BFE;&#x7A0B;&#x73ED;&#x7BA1;&#x7406;&#xFF09;</span>
+<span class="hljs-keyword">import</span> EduClass <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./edu_class/_routers&apos;</span>;
+
+<span class="hljs-comment">// &#x4E8C;&#x6B21;&#x89E3;&#x6784;&#x8D4B;&#x503C;</span>
+<span class="hljs-keyword">const</span> routers = [
+    ...Teacher,
+    ...Temporary,
+    ...Virtual,
+    ...Classes,
+    ...CourseClass,
+    ...EduClass,
+    ...Authority,
+    ...Transfer
+];
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> routers;
+</code></pre>
+<p>views/school/teacher/_routers.js</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">/**
+ * @author jonasli
+ * @module &#x6559;&#x804C;&#x5DE5;&#x7BA1;&#x7406; &#x8DEF;&#x7531;
+ * @date 2019/05/21
+ * @update 2019/07/07 &#x5BFC;&#x5165;&#x8DEF;&#x7531;&#x5DF2;&#x7ECF;&#x6574;&#x5408;&#x5230;&#x5171;&#x6709;&#x8DEF;&#x7531; upload_template &#x4E2D;&#xFF0C;&#x5177;&#x4F53;&#x54A8;&#x8BE2; &#x3010;&#x524D;&#x7AEF;-&#x9EC4;&#x8DEF;&#x4F1F;&#x3011;
+ */</span>
+<span class="hljs-keyword">const</span> Teacher = resolve =&gt; <span class="hljs-built_in">require</span>([<span class="hljs-string">&apos;./index.vue&apos;</span>], resolve);
+<span class="hljs-keyword">const</span> Edit = resolve =&gt; <span class="hljs-built_in">require</span>([<span class="hljs-string">&apos;./edit.vue&apos;</span>], resolve);
+<span class="hljs-keyword">const</span> PositionSet = resolve =&gt; <span class="hljs-built_in">require</span>([<span class="hljs-string">&apos;./position-set.vue&apos;</span>], resolve);
+
+<span class="hljs-comment">// &#x9700;&#x8981;&#x89E3;&#x6784;&#x8D4B;&#x503C;&#x7684;&#x5185;&#x5BB9;</span>
+<span class="hljs-keyword">const</span> routers = [
+    {
+        path: <span class="hljs-string">&apos;teacher&apos;</span>,
+        name: <span class="hljs-string">&apos;teacher&apos;</span>,
+        meta: {
+            root: <span class="hljs-string">&apos;teacher&apos;</span>,
+            title: <span class="hljs-string">&apos;&#x6559;&#x804C;&#x5DE5;&#x7BA1;&#x7406;&apos;</span>
+        },
+        component: Teacher
+    }, {
+        path: <span class="hljs-string">&apos;teacher/edit/:id?&apos;</span>,
+        name: <span class="hljs-string">&apos;teacherEdit&apos;</span>,
+        meta: {
+            root: <span class="hljs-string">&apos;teacher&apos;</span>,
+            title: <span class="hljs-string">&apos;&#x6559;&#x804C;&#x5DE5;&#x7F16;&#x8F91;&apos;</span>,
+            list: (params) =&gt; {
+                <span class="hljs-keyword">return</span> [
+                    {
+                        name: <span class="hljs-string">&apos;teacher&apos;</span>,
+                        title: <span class="hljs-string">&apos;&#x6559;&#x804C;&#x5DE5;&#x7BA1;&#x7406;&apos;</span>,
+                        path: <span class="hljs-string">&apos;/teacher&apos;</span>
+                    }, {
+                        name: <span class="hljs-string">&apos;teacherEdit&apos;</span>,
+                        title: !params.id ? <span class="hljs-string">&apos;&#x6DFB;&#x52A0;&#x6559;&#x5E08;&apos;</span> : <span class="hljs-string">&apos;&#x7F16;&#x8F91;&#x6559;&#x5E08;&apos;</span>,
+                        path: <span class="hljs-string">&apos;&apos;</span>
+                    }
+                ];
+            }
+        },
+        component: Edit
+    }, {
+        path: <span class="hljs-string">&apos;position/set&apos;</span>,
+        name: <span class="hljs-string">&apos;positionSet&apos;</span>,
+        meta: {
+            root: <span class="hljs-string">&apos;teacher&apos;</span>,
+            title: <span class="hljs-string">&apos;&#x6559;&#x804C;&#x5DE5;&#x7F16;&#x8F91;&apos;</span>,
+            list: (params) =&gt; {
+                <span class="hljs-keyword">return</span> [
+                    {
+                        name: <span class="hljs-string">&apos;teacher&apos;</span>,
+                        title: <span class="hljs-string">&apos;&#x6559;&#x804C;&#x5DE5;&#x7BA1;&#x7406;&apos;</span>,
+                        path: <span class="hljs-string">&apos;/teacher&apos;</span>
+                    }, {
+                        name: <span class="hljs-string">&apos;positionSet&apos;</span>,
+                        title: <span class="hljs-string">&apos;&#x804C;&#x4F4D;&#x8BBE;&#x7F6E;&apos;</span>,
+                        path: <span class="hljs-string">&apos;&apos;</span>
+                    }
+                ];
+            }
+        },
+        component: PositionSet
+    }
+];
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> routers;
+</code></pre>
+<h4 id="&#x603B;&#x7ED3;">&#x603B;&#x7ED3;</h4>
+<p>&#x901A;&#x8FC7;&#x4ECE; <em>views/school/teacher/_routers.js</em>  =&gt;  <em>views/school/routers.js</em>  =&gt;  <em>src/routers.js</em>  &#x5C42;&#x5C42;&#x89E3;&#x6784;&#xFF0C;&#x4F1A;&#x53D1;&#x73B0;&#xFF0C;&#x5176;&#x5B9E;&#x9700;&#x8981;&#x7BA1;&#x7406;&#x7684;&#x8DEF;&#x7531;&#x5185;&#x5BB9;&#x5F88;&#x5C11;&#xFF0C;&#x7BA1;&#x7406;&#x5F88;&#x65B9;&#x4FBF;&#xFF0C;&#x5C31;&#x8FD1;&#x7EF4;&#x62A4;&#x3002;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x4EE5;&#x4E0B;&#x51E0;&#x70B9;&#x95EE;&#x9898;&#xFF1A;</p>
+<ol>
+<li><p>vue-router &#x5BFC;&#x51FA;&#x7684;&#x5176;&#x5B9E;&#x662F;&#x4E2A;Class, &#x6240;&#x4EE5;&#x89E3;&#x6784;&#x8D4B;&#x503C;&#x7684;&#x5BF9;&#x8C61;&#x5747;<strong>&#x4E3A;&#x9996;&#x5B57;&#x6BCD;&#x5927;&#x5199;</strong></p>
+</li>
+<li><p>&#x8DEF;&#x7531;&#x5BF9;&#x5E94;&#x6A21;&#x5757;&#x540D;&#x9700;&#x8981;<strong>&#x9996;&#x5B57;&#x6BCD;&#x5927;&#x5199;</strong></p>
+</li>
+<li><p>&#x9879;&#x76EE;&#x4E2D; <strong>&#x4E09;&#x7EA7;&#x5BFC;&#x822A;&#x9875;&#x9762;</strong> &#x65E0;&#x771F;&#x5B9E;&#x8DEF;&#x7531;&#xFF0C;&#x4E0D;&#x80FD;&#x5355;&#x72EC;&#x5B58;&#x5728;&#x3002;&#x5373;&#x4E8C;&#x7EA7;&#x83DC;&#x5355;&#x4E0B;&#x7684; tabs &#x9875;&#x9762;&#x662F;&#x7EC4;&#x4EF6;&#x9875;&#x9762;&#x7528; <components :is="routeName">&#x5F15;&#x5165;&#x3002;emmm, &#x7406;&#x8BBA;&#x4E0A;&#x4E5F;&#x662F;&#x53EF;&#x4EE5;&#x7684;&#xFF0C;tabs&#x7EC4;&#x4EF6;&#x9875;&#x6DFB;&#x52A0;&#x4E3A;&#x8DEF;&#x7531;&#x9875;&#x5C31;&#x884C;&#xFF0C;&#x6309;&#x9700;&#x6C42;&#x53EF;&#x4EE5;&#x8BA8;&#x8BBA;&#x4E0B;</components></p>
+<h6 id="&#x4E09;&#x7EA7;tabs&#x9875;&#x9762;&#x4EE3;&#x7801;&#x793A;&#x4F8B;">&#x4E09;&#x7EA7;tabs&#x9875;&#x9762;&#x4EE3;&#x7801;&#x793A;&#x4F8B;</h6>
+<pre><code class="lang-vue">&lt;template&gt;
+    &lt;!-- &#x56FA;&#x5B9A;&#x6A21;&#x677F; --&gt;
+    &lt;Tabs type=&quot;card&quot; 
+        :animated=&quot;false&quot;
+        id=&quot;layoutTabs&quot;
+        v-if=&quot;tabsList.length&quot; 
+        :value=&quot;activeMenu&quot;
+        @on-click=&quot;changeTabs&quot;&gt;
+        &lt;TabPane v-for=&quot;(item, idx) in tabsList&quot; :key=&quot;idx&quot;
+            :label=&quot;item.Name&quot; 
+            :name=&quot;item.Menu&quot;&gt;
+                &lt;component :is=&quot;item.Menu&quot;/&gt;
+        &lt;/TabPane&gt;
+    &lt;/Tabs&gt;
+&lt;/template&gt;
+&lt;script&gt;
+// &#x5C06;&#x9875;&#x9762;&#x4F5C;&#x4E3A;&#x7EC4;&#x4EF6;&#x6A21;&#x5757;&#x5F15;&#x5165;
+// Page1
+import Page1 from &apos;./page1&apos;;
+// Page2
+import Page2 from &apos;./page2&apos;;
+
+export default {
+    // &#x4EE5;&#x4E0B;&#x5747;&#x4E3A;&#x56FA;&#x5B9A;&#x65B9;&#x6CD5;
+    data() {
+        return {
+            tabsList: [],
+            activeMenu: &apos;&apos;,
+            currentRouter: this.$route.name
+        };
+    },
+    watch: {
+    },
+    mounted() {
+        this.initTabs();
+    },
+    methods: {
+        // initTabsPage
+        initTabs () {
+            this.tabsList = this.$route.meta.tabsList;
+            this.activeMenu = this.$route.params.page || this.tabsList[0][&apos;Menu&apos;];
+            // &#x8BBE;&#x7F6E;&#x9ED8;&#x8BA4;hash
+            this.changeTabs(this.activeMenu);
+        },
+        // &#x5207;&#x6362;tabs&#x65F6;&#x751F;&#x6210;&#x8DEF;&#x7531;hash, &#x786E;&#x8BA4;&#x5BF9;&#x5E94;&#x5173;&#x7CFB;
+        changeTabs (tabsName) {
+            this.$router.replace({name: this.currentRouter, params: {page: tabsName}});
+        }
+    },
+    components: {
+        Page1,
+        Page2
+    }
+};
+&lt;/script&gt;
+&lt;style lang=&quot;less&quot;&gt;
+&lt;/style&gt;
+</code></pre>
+</li>
+</ol>
+<ol>
+<li><p>&#x8DEF;&#x7531;&#x547D;&#x540D;&#x89C4;&#x8303;&#xFF1A;path&#x4EE5;&#x7B80;&#x5355;&#x4E3A;&#x51C6;&#xFF0C;&#x4E00;&#x7EA7;&#x9875;&#x9762;&#x5373;&#x201C;<strong>&#x83DC;&#x5355;&#x540D;</strong>&#x201D;&#xFF0C;&#x4E8C;&#x7EA7;&#x9875;&#x9762;&#x6839;&#x636E;&#x4E0D;&#x540C;&#x7684;&#x4E1A;&#x52A1; &#x201C;<strong>&#x83DC;&#x5355;&#x540D;/&#x529F;&#x80FD;&#x540D;</strong>&#x201D;&#xFF0C;&#x5C0F;&#x5199;&#x9A7C;&#x5CF0;&#x3002;</p>
+</li>
+<li><p>meta&#x5C5E;&#x6027;&#x4ECB;&#x7ECD;&#xFF1A;</p>
+<p>| &#x5C5E;&#x6027;  | &#x8BF4;&#x660E;                                                         | &#x7C7B;&#x578B;    | &#x9ED8;&#x8BA4;&#x503C; |
+| ----- | ------------------------------------------------------------ | ------- | ------ |
+| title | &#x9875;&#x9762;&#x6807;&#x9898;&#xFF0C;&#x6FC0;&#x6D3B;&#x8DEF;&#x7531;&#x65F6;&#x4E3A;&#x6D4F;&#x89C8;&#x5668;&#x9875;&#x5361;title                        | String  | &#x2018;&#x2019;     |
+| root  | &#x5BF9;&#x5E94;&#x5934;&#x90E8;&#x83DC;&#x5355; Menu &#x5C5E;&#x6027;&#xFF0C;&#x7528;&#x4E8E;&#x786E;&#x8BA4;&#x975E;&#x83DC;&#x5355;&#x9875;&#x7684;&#x4E8C;&#x7EA7;&#x9875;&#x9762;&#x7684;&#x83DC;&#x5355;&#x9AD8;&#x4EAE; | String  | &apos;&apos;     |
+| list  | &#x9762;&#x5305;&#x5C51;&#x5BFC;&#x822A;&#x6570;&#x636E;&#x6E90;&#xFF0C;&#x53EF;&#x4EE5;&#x56FA;&#x5B9A;&#xFF0C;&#x5C42;&#x7EA7;&#x4E0D;&#x9650;&#x3002;&#x52A8;&#x6001;&#x751F;&#x6210;&#x65F6;&#x53EA;&#x652F;&#x6301;&#x4E24;&#x5C42;   | Array   | &apos;&apos;     |
+| hide  | &#x53EA;&#x6709;&#x52A8;&#x6001;&#x751F;&#x6210;&#x9762;&#x5305;&#x5C51;&#x65F6;&#x7528;&#x5230;&#xFF0C;&#x7528;&#x4E8E;&#x9690;&#x85CF;&#x4E8C;&#x7EA7;&#x83DC;&#x5355;&#x6761;&#xFF0C;&#x53C2;&#x8003;&#x5BFC;&#x5165;&#x6A21;&#x677F;&#x8DEF;&#x7531;&#x3002;&#x8BE5;&#x5C5E;&#x6027;&#x53EA;&#x8BFB; | Boolean | true   |</p>
+<h6 id="&#x52A8;&#x6001;&#x751F;&#x6210;&#x9762;&#x5305;&#x5C51;&#x4EE3;&#x7801;&#x793A;&#x4F8B;">&#x52A8;&#x6001;&#x751F;&#x6210;&#x9762;&#x5305;&#x5C51;&#x4EE3;&#x7801;&#x793A;&#x4F8B;</h6>
+<pre><code class="lang-javascript"><span class="hljs-comment">// index.vue =&gt; script</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    data() {
+        <span class="hljs-keyword">return</span> {};
+    },
+    components: {
+    },
+    mounted() {
+        <span class="hljs-comment">// &#x52A8;&#x6001;&#x9762;&#x5305;&#x5C51;&#x56FA;&#x5B9A;&#x65B9;&#x6CD5;, &#x5176;&#x4ED6;&#x5730;&#x65B9;&#x614E;&#x7528;~~~~</span>
+        <span class="hljs-keyword">this</span>.initBreadCrumb();
+    },
+    methods: {
+        initBreadCrumb () {
+            <span class="hljs-keyword">let</span> routeMetaList = <span class="hljs-keyword">this</span>.$route.meta.list;
+            <span class="hljs-keyword">if</span> (!routeMetaList.length) {
+                <span class="hljs-comment">// &#x9875;&#x9762;&#x5237;&#x65B0;&#xFF0C;&#x4ECE;&#x7F13;&#x5B58;&#x4E2D;&#x53D6;&#x9762;&#x5305;&#x5C51;&#x4E2D;&#x53D6;</span>
+                routeMetaList = <span class="hljs-keyword">this</span>.$storage.localget(<span class="hljs-string">&apos;header.bread.crumb&apos;</span>);
+                <span class="hljs-keyword">this</span>.$route.meta.list = routeMetaList;
+                <span class="hljs-keyword">if</span> (routeMetaList.length) {
+                    <span class="hljs-keyword">let</span> root = routeMetaList[<span class="hljs-number">0</span>][<span class="hljs-string">&apos;root&apos;</span>];
+                    <span class="hljs-keyword">this</span>.$route.meta.root = root;
+                    <span class="hljs-keyword">this</span>.$parent.reloadBreadCrumb();
+                }
+            }
+            <span class="hljs-keyword">this</span>.$storage.localset(<span class="hljs-string">&apos;header.bread.crumb&apos;</span>, routeMetaList);
+        }
+    },
+    computed: {},
+    beforeRouteLeave (to, <span class="hljs-keyword">from</span>, next) {
+        <span class="hljs-comment">// &#x79BB;&#x5F00;&#x65F6;&#x8BB0;&#x5F97;&#x6E05;&#x7A7A;&#x52A8;&#x6001;&#x8DEF;&#x7531;</span>
+        <span class="hljs-keyword">this</span>.$route.meta.list = [];
+        next();
+    }
+};
+
+<span class="hljs-comment">// routers.js</span>
+<span class="hljs-keyword">const</span> Upload = resolve =&gt; <span class="hljs-built_in">require</span>([<span class="hljs-string">&apos;./index.vue&apos;</span>], resolve);
+
+<span class="hljs-keyword">const</span> routers = [
+    <span class="hljs-comment">// &#x5BFC;&#x5165;&#x6A21;&#x677F;&#x9875;&#x9762;</span>
+    {
+        path: <span class="hljs-string">&apos;upload/:type?&apos;</span>,
+        name: <span class="hljs-string">&apos;upload&apos;</span>,
+        meta: {
+            root: <span class="hljs-string">&apos;upload&apos;</span>,
+            <span class="hljs-comment">// &#x9690;&#x85CF;&#x4E8C;&#x7EA7;&#x83DC;&#x5355;&#xFF0C;&#x5FC5;&#x9700;&#x6709;</span>
+            hide: <span class="hljs-literal">true</span>,
+            title: <span class="hljs-string">&apos;&#x6279;&#x91CF;&#x5BFC;&#x5165;&#x6570;&#x636E;&apos;</span>,
+            <span class="hljs-comment">// &#x7A7A;&#x9762;&#x5305;&#x5C51;&#x5BFC;&#x822A;&#xFF0C;&#x5FC5;&#x9700;&#x6709;</span>
+            list: []
+        },
+        component: Upload
+    }
+];
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> routers;
+</code></pre>
+</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="1.简介.html" class="navigation navigation-prev " aria-label="Previous page: 简介">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="3.Vue模板页规范.html" class="navigation navigation-next " aria-label="Next page: Vue模板页规范">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"目录路由设计","level":"1.3","depth":1,"next":{"title":"Vue模板页规范","level":"1.4","depth":1,"path":"介绍/3.Vue模板页规范.md","ref":"介绍/3.Vue模板页规范.md","articles":[]},"previous":{"title":"简介","level":"1.2","depth":1,"path":"介绍/1.简介.md","ref":"介绍/1.简介.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"介绍/2.目录路由设计.md","mtime":"2019-11-20T08:46:50.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-10-15T18:05:00.057Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
